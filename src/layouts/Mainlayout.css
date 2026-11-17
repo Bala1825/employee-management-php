@@ -1,0 +1,18 @@
+
+.app-layout {
+  min-height: 100vh;
+}
+
+.app-body {
+  min-height: calc(100vh - 70px);
+}
+
+.app-sidebar {
+  border-right: 1px solid #e5e7eb;
+}
+
+.main-content {
+  padding: 24px;
+  background: #f5f7fa;
+  min-width: 0;
+}

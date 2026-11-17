@@ -1,0 +1,26 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.dashboard-heading h3 {
+  margin-bottom: 4px;
+}
+
+.dashboard-card {
+  min-height: 180px;
+  border-radius: 10px;
+}
+
+.dashboard-card {
+  min-height: 180px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(139, 136, 136, 0.5);
+}
